@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flujo</title>
+</head>
+
+<body>
+    <script>
+        var x = false;
+        if (null) {
+            console.log("verdadero");
+        } else {
+            console.log("falso");
+        }
+
+        var a = 1;
+        switch (a) {
+            case 5:
+                console.log(5);
+                break;
+            case 4:
+                console.log(4);
+                break;
+            case 3:
+                console.log(3);
+                break;
+            default:
+                console.log("por defecto");
+                break;
+        }
+
+
+        var array = ['lunes', 'martes', 'miercoles', 'jueves'];
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            console.log(element);
+        }
+
+        array.forEach(function (elemento) {
+            console.log(elemento);
+        }
+        );
+        
+        var z = 0;
+        while (z <5) {
+            console.log(array[z]);
+            z++;
+        }
+
+    </script>
+</body>
+
+</html>
